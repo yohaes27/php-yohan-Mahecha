@@ -26,5 +26,9 @@
     <br><br>
     
     <a href="t1p10.php">anterior</a>
+    
+    <br><br>
+
+    <a href="index.php"> inicio </a>
 </body>
 </html>

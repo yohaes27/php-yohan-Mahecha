@@ -1,0 +1,47 @@
+
+
+
+
+            direccion:[  seda]
+            Jamon y queso:[ x ]
+            Cantidad[ 123 ]
+
+            Napolittana:[ x ]
+            Cantidad[ 21 ]
+
+            Muzzarella;[  ]
+            Cantidad[  ]
+
+
+
+        
+-----------------------
+            direccion:[  seda]
+            Jamon y queso:[ x ]
+            Cantidad[ 123 ]
+
+            Napolittana:[ x ]
+            Cantidad[ 21 ]
+
+            Muzzarella;[  ]
+            Cantidad[  ]
+
+
+
+        
+-----------------------
+
+            direccion:[  seda]
+            Jamon y queso:[ x ]
+            Cantidad[ 123 ]
+
+            Napolittana:[ x ]
+            Cantidad[ 21 ]
+
+            Muzzarella;[  ]
+            Cantidad[  ]
+
+
+
+        
+-----------------------

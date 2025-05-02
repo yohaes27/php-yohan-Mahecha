@@ -30,6 +30,11 @@
 
     </form>
 
+   
+    
+    <br><br>
+
+    <a href="index.php"> inicio </a>
 
 
 </body>

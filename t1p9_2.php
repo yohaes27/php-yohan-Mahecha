@@ -12,7 +12,7 @@
     $re_nom = $_REQUEST["nombre"];
     $re_edad = $_REQUEST["edad"];
 
-    if ($re_edad>= 18 and $re_edad <= 100){
+    if ($re_edad >= 18 and $re_edad <= 100){
         echo "$re_nom tiene $re_edad; es mayo de edad";
     }
     elseif ($re_edad < 18 and $re_edad >=1){
