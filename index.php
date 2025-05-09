@@ -90,5 +90,9 @@
     <a href="tutorial_2/t2p27_ejer.php">27 ejemplo</a>
     <br><br>
 
+    <a href="tutorial_2/t2p28.php">IR al ejecicio 28 de tutorial_2/t2p28.php (funcion count de sql)</a>
+
+
+
 </body>
 </html>
