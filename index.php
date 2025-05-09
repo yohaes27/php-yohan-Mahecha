@@ -8,6 +8,7 @@
 <body>
     <h1>HOLA estoy aprendiendo php</h1>
     
+   
     <a href="t1p3.php">Ir a ejercicio 3 t1p3</a>
     
     <br><br>
@@ -91,8 +92,10 @@
     <br><br>
 
     <a href="tutorial_2/t2p28.php">IR al ejecicio 28 de tutorial_2/t2p28.php (funcion count de sql)</a>
+    <br><br>
 
-
+    <a href="tutorial_2/t2p29.php">Ir al ejercicion 29 de tutorial_2/t2p29.php </a>
+    <br><br>
 
 </body>
 </html>
