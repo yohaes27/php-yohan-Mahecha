@@ -16,7 +16,7 @@
         <input type="radio" name="occion" value="primera">1-no tiene estudios
         <br><br>
 
-        <input type="radio" name="occion" values="segunda">2-estudios primarios
+        <input type="radio" name="occion" value="segunda">2-estudios primarios
         <br><br>
 
         <input type="radio" name="occion" value="trcera">3-estudios secundaria

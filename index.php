@@ -63,7 +63,32 @@
     <a href="tutorial_2/t2p20.php">Ir a ejercicio 20 t2p20.php</a>
     <br><br>
 
+    <a href="tutorial_2/t2p20_3.php">Ir al ejercicio 20 tutorial_2/t2p20_3.php </a>
+    <br><br>
 
+    <a href="tutorial_2/t2p21.php">Ir al ejercicio 21</a>
+    <br><br>
+
+    <a href="tutorial_2/t2p22.php">Ir al ejercicio 22 tutorial_2/t2p22.php</a>
+    <br><br>
+
+    <a href="tutorial_2/t2p23.php">Ir al ejercicio numero 23 de tutorial_2/t2p23.php</a>
+    <br><br>
     
+    <a href="tutorial_2/t2p24.php">Ir al ejercicio numero 24 de tutoriales/t2p24.php</a>
+    <br><br>
+
+    <a href="tutorial_2/t2p25.php">Ir al ejercicio 25 de tutorial_2/t2p25.php (modificar tabla cursos)</a>
+    <br><br>
+
+    <a href="tutorial_2/t2p26.php">Ir al ejercicio 26 de tutoraial_2/t2p26.php (consulta de tabla alumnos)</a>
+    <br><br>
+
+    <a href="tutorial_2/t2p27.php">Ir al ejercicio 27 de tutorial_2/t2p27.php (seleccion de registro de barias tablas - INER JOIN)</a>
+    <br><br>
+
+    <a href="tutorial_2/t2p27_ejer.php">27 ejemplo</a>
+    <br><br>
+
 </body>
 </html>

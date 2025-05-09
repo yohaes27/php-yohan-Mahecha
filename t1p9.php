@@ -15,7 +15,7 @@
         <br>
         <h2>Ingrese la edad</h2>
         <br>
-        <input type="integer" name="edad">
+        <input type="number" name="edad">
         <br>
         <br>
         <input type="submit" value="confirmar">

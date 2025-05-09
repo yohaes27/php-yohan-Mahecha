@@ -18,7 +18,7 @@
 
         <h2> Ingrese mail: </h2>
         <br><br>
-        <input type="text" name="mail">
+        <input type="mail" name="mail">
         <br><br>
 
         <h2> Seleccione el curso </h2>
@@ -30,15 +30,7 @@
         </select>
         <br><br>
 
-        <h3> Ingrese el nombre del curso que quiere ingresar </h3>
-        <br><br>
-        <input type="text" name="nombrecurso"> 
-        <br><br>
-
-        <h3> Ingrese el codigo del cruso </h3>
-        <br><br>
-        <input type="integer" name="codigocurso">
-
+       
         <input type="submit" value="Registrar">
 
 

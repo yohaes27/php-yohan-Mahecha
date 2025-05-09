@@ -11,16 +11,13 @@
     
     $conexion = mysqli_connect("localhost" , "root" ,"", "base1") or die("Problemas con la coneccio");
 
-    mysqli_query($conexion, "insert into alumnos (nombre , mail , codigocurso) values ($_REQUES[nombre] , $_REQUEST[mail] , $_REQUEST[codigocurso])") or die ("problemas en el select ".mysql_error($coneccion));
+    mysqli_query($conexion,"insert into alumnos(nombre , mail , codigocurso) values('$_REQUEST[nombre]','$_REQUEST[mail]','$_REQUEST[codigocurso]')") or die ("problemas en le select".mysqli_error($conexion));
 
     mysqli_close($conexion);
 
     echo "El alumno fue dado de alta. ";
+
     
-    #$coneccion_curso = mysqli_connect("localhost" , "root" , "bases1");
-
-    mysqli_query($coneccion , "insert into cusos (nombrecurso , codigocurso) values('$_REQUEST[nombre_curso]' , '$REQUEST[codigo_curso]') ") or die ("problemas en el select".mysql_error($coneccion))
-
     ?>
 
     
