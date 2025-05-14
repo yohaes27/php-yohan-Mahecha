@@ -18,7 +18,7 @@
 
         <h2> Ingrese mail: </h2>
         <br><br>
-        <input type="mail" name="mail">
+        <input type="email" name="mail">
         <br><br>
 
         <h2> Seleccione el curso </h2>

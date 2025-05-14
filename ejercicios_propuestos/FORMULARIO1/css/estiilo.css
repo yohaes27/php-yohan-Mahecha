@@ -1,0 +1,25 @@
+.form{
+    position: relative;
+    border: 2px rgba(17, 17, 90, 0.822) solid ; 
+    background-color: #054559;
+    padding: 20px ;
+    
+    border-radius: 12px;
+    width: 332px ;
+    height: 223px;
+}
+.form > label {
+    color: #ADC4C8;
+    
+    padding-right: 23px;
+}
+.form > input{
+    position: absolute;
+    right: 33px;
+    width: 209px;
+    height: 23px;
+}
+.form > #btn{
+    width: 219px;
+    height: 30px;
+}

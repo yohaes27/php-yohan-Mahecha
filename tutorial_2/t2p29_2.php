@@ -11,22 +11,37 @@
 
         $conexion = mysqli_connect ("localhost" , "root" , "" ,"base1") or die ("problemas con la conexion ");
 
-        $registros = mysqli_query ($conexion , "select from alumnos WHERE amil = '$_REQUEST[mail]' and nombre = '$_REQUEST[nombre]' and ") or die ("problemas con el select:" . mysqli_error($conexion) );
+        $codigo = $_POST['codigo'];
+        $registros = mysqli_query ($conexion , "select * from alumnos WHERE codigo = '$codigo'") or die ("problemas con el select:" . mysqli_error($conexion) );
         
         if ($regalu = mysqli_fetch_array($registros)){    
     ?>
+    <h1>modifica los datos</h1>
         <form action="t2p29_3.php" method="post">
-            <input type="mail" name="mailviejo" value="<?php echo $regalu['mail'] ?>">
-            <select name="codigocurso" id="">
+            <label for="">codigo</label>
+            <input type="nombre" name="codigo" value="<?php echo $regalu['codigo'] ?>"><br>
+
+            <label for="">Nombre</label>
+            <input type="text" name="nombre" value="<?php echo $regalu['nombre']  ?> "required>
+            <br>
+
+            <label for="">email</label>
+            <input type="email" name="mail" value="<?php echo $regalu['mail']  ?>" required><br>
+
+            <label for="">curso</label>
+            
+            <select name="codigocurso">
                 <?php   
                     $registros = mysqli_query ($conexion , "select * from cursos") or die ("problemas en el select:" . mysqli_error($registros));
+
                     while($reg= mysqli_fetch_array($registros) ){
-                        if ($regalu['codigocurso'] == $reg['codigo']){
-                            echo "<optio value=\"$reg[codigo]\" selected> $reg[cur_nombre]</option>";
+                        if ($regalu['codigocurso'] == $reg['codigo']) {
+                            echo "<option value=\"$reg[codigo]\" selected> $reg[nombrecurso]</option>";
+                            
 
                         }
                         else{
-                            echo "<option value=\"$reg[cidigo]\"> $reg[cur_nombre]</option>";
+                            echo "<option value=\"$reg[codigo]\"> $reg[cur_nombre]</option>";
                         }
                         
                     }
@@ -39,8 +54,9 @@
         <?php
             }
             else {
-                echo "no existe alumno con dicho mail ";
+                echo "no existe alumno con dicho codigo ";
             }
+            mysqli_close($conexion);
         
         ?>
 

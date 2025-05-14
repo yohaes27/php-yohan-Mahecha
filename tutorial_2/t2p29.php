@@ -9,8 +9,14 @@
     
     <form action="t2p29_2.php" method="post">
 
-        ingrese el mail del alumno:
-        <input type="mail" name="mail">
+        <h1>modificar</h1>
+        <p>Se modificara el email, nombre y curso de la tabla <strong> "alumno" </strong></p>
+        <label for="codigo">ingrese el codigo</label>
+        <input type="number" name="codigo" required>
+        <br>
+        <input type="submit" value="buscar">
+        <!-- ingrese el mail del alumno:
+        <input type="email" name="mail">
         <br>
         ingrese el nombre de alumno
         <input type="text" name="nombre">
@@ -20,7 +26,7 @@
         <input type="text" name="curso">
         <br>
 
-        <input type="submit" value="Buscar">
+        <input type="submit" value="Buscar"> -->
 
     </form>
 

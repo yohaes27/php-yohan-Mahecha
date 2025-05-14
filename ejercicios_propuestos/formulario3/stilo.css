@@ -1,0 +1,33 @@
+form{
+    position: relative;
+    border: 2px #D629E3 solid ; 
+    background-color: #D629E3 ;
+    padding: 20px ;
+    
+    border-radius: 12px;
+    width: 452px ;
+    height: 160px;
+}
+form > label {
+    color: #ADC4C8;
+
+    padding-right: 23px;
+}
+form > input{
+    position: absolute;
+    right: 33px;
+    width: 209px;
+    height: 23px;
+}
+form > #btn{
+    width: 219px;
+    height: 30px;
+}
+form > button{
+    margin-top:44px;
+    position: absolute;
+    right: 33px;
+    width: 217px;
+    height: 33px;
+
+}

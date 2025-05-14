@@ -13,7 +13,7 @@
         <input type="text" name="nombre"><br><br>
 
         ingrese mail:
-        <input type="mail" name="mail"><br><br>
+        <input type="email" name="mail"><br><br>
 
         seleccione un curso:
         <select name="codigocuso">
