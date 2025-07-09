@@ -11,11 +11,11 @@
     
     $conexion = mysqli_connect("localhost" , "root" , "" , "base1") or die ("problemas con la conexion");
 
-    $registros = mysqli_query($conexion , "select codigo, nombre from cursos") or die ("problemas en el select:".mysqli_error($conexion));
+    $registros = mysqli_query($conexion , "select codigo, nombrecurso from cursos") or die ("problemas en el select:".mysqli_error($conexion));
 
     while ($reg=mysqli_fetch_array($registros)){
         echo "Codigo ".$reg['codigo']."<br>";
-        echo "Nombre ".$reg['nombre']."<br>";
+        echo "nombrecurso ".$reg['nombrecurso']."<br>";
         #switch ($reg['codigocurso']){
          #   case 1: echo
         #}

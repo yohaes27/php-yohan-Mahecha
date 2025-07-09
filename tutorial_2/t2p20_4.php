@@ -10,7 +10,7 @@
     
     $conexion = mysqli_connect("localhost" , "root" , "" , "base1") or die ("problemas con la conexion");
 
-    mysqli_query($conexion, "insert into cursos (codigo, nombre) values('$_REQUEST[codigocurso]','$_REQUEST[nombrecurso]')") or die ("prooblemas en el select".mysqli_error($conexion));
+    mysqli_query($conexion, "insert into cursos (codigo, nombrecurso) values('$_REQUEST[codigocurso]','$_REQUEST[nombrecurso]')") or die ("prooblemas en el select".mysqli_error($conexion));
 
     mysqli_close($conexion);
 

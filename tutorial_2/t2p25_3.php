@@ -11,7 +11,7 @@
     
     $conexion = mysqli_connect("localhost" , "root" , "" , "base1") or die ("problemas con la conexion");
 
-    mysqli_query ($conexion , "update cursos set nombre = '$_REQUEST[nombrenuevo]' where nombre = '$_REQUEST[nobreviejo]'") or die ("problemas en el select:".mysqli_error($conexion)); 
+    mysqli_query ($conexion , "update cursos set nombrecurso = '$_REQUEST[nombrenuevo]' where nombrecurso = '$_REQUEST[nobreviejo]'") or die ("problemas en el select:".mysqli_error($conexion)); 
 
     echo "el el nombre fue modificado";
     

@@ -1,16 +1,16 @@
 
     <?php
-    
-    if ($_REQUEST['radio']== "rojo"){
-        setcookie("color" , "#fff0000" , time()+ 60 * 60 *24 * 365 , "/");
+
+    if ($_POST['radio'] == "rojo"){
+        setcookie("color" , "#ff0000" , time()+ 60 * 60 *24 * 365 , "/");
     }
-    elseif ($_REQUEST['radio'] == "verde"){
-    setcookie("color" , "#00ff00" , time()+ 60 * 60 *24 * 365 , "/");
+    elseif ($_POST['radio'] == "verde"){
+        setcookie("color" , "#00ff00" , time()+ 60 * 60 *24 * 365 , "/");
     }
-    else{
+    elseif ($_POST['radio'] == "azul"){
         setcookie("color" , "#0000ff" , time()+ 60 * 60 *24 * 365 , "/"); 
     }
-    
+
     ?>
 
 
@@ -25,9 +25,7 @@
 
 se cro la cookie <br>
 
-<a href="t3p34_1.php">Ir a la otra pagina</a>
-
-
+<a href="tutorial_3/t3p34_1.php">Ir a la otra pagina</a>
     
 </body>
 </html>

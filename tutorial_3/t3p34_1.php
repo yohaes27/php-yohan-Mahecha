@@ -5,20 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Problema 34</title>
 </head>
-<body>
+<body
     
     <?php
-    if (isset($_COOKIE['color'])){
-        echo "style=\"background:"$_COOKIE['color']\""
-    }
+    if (isset($_COOKIE['color'])) echo "style=\"background:$_COOKIE[color]\"";
     ?>
+    >
     <form action="t3p34_2.php" method="post">
         <label for="">Seleccione de que coror desea que sea la pagina de ahora en mas:</label><br>
-        <input type="radio" value="rojo"name ="radio"><br>
+        <input type="radio" value="rojo" name ="radio">Rojo<br>
 
-        <input type="radio" value="verde" name="radio"><br>
+        <input type="radio" value="verde" name="radio">Verde<br>
         
-        <input type="radio" value="azul" name="radio"><br>
+        <input type="radio" value="azul" name="radio">Azul<br>
         
         <input type="submit" value="creaar Cookie">
     </form>

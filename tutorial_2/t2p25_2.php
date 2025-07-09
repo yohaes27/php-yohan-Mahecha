@@ -11,7 +11,7 @@
     
     $conexion = mysqli_connect("localhost" , "root" , "" , "base1" ) or die ("problemas con la conexion");
 
-    $registros = mysqli_query ($conexion , "select * from cursos where nombre = '$_REQUEST[nombre]'") or die ("problemas con el select:".mysqli_fetch_array($registros));
+    $registros = mysqli_query ($conexion , "select * from cursos where nombrecurso = '$_REQUEST[nombre]'") or die ("problemas con el select:".mysqli_fetch_array ($registros));
 
     if ($reg = mysqli_fetch_array($registros)){
 
@@ -20,11 +20,11 @@
     <form action="t2p25_3.php" method="post">
         ingrese nuebo nombre
 
-        <input type="text" name="nombrenuevo" value="<?php echo $reg['nombre'] ?>">
+        <input type="text" name="nombrenuevo" value="<?php echo $reg['nombrecurso'] ?>">
         <br>
         
         
-        <input type="hidden" name="nobreviejo" value="<?php echo $reg['nombre']   ?>">
+        <input type="hidden" name="nobreviejo" value="<?php echo $reg['nombrecurso']   ?>">
         <br>
 
         <input type="submit" value="Modificar">

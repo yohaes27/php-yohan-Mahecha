@@ -16,7 +16,7 @@
 
     if ($reg = mysqli_fetch_array($registro)){
 
-        mysqli_query($conexion , "delete from cursos where nombre='$_REQUEST[nombre]'") or die ("problemas en el select:".mysqli_error($conexion));
+        mysqli_query($conexion , "delete from alumnos where nombre ='$_REQUEST[nombre]'") or die ("problemas en el select:".mysqli_error($conexion));
         echo "Se efectuo el borrado del alumno con dicho nombre.";
     }
     else{

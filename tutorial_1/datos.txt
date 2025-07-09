@@ -1,0 +1,30 @@
+
+            direccion:[sa  ]
+            Jamon y queso:[ sads ]
+            Cantidad[ ss ]
+
+            Napolittana:[ sas ]
+            Cantidad[  ]
+
+            Muzzarella;[  ]
+            Cantidad[  ]
+
+
+
+        
+-----------------------
+Pepito
+            direccion:[  sas]
+            Jamon y queso:[ sda ]
+            Cantidad[ sda ]
+
+            Napolittana:[ sadsa ]
+            Cantidad[  ]
+
+            Muzzarella;[  ]
+            Cantidad[  ]
+
+
+
+        
+-----------------------
